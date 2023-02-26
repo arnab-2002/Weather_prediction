@@ -1,0 +1,126 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    /* background: #ebd5d5; */
+    font-size: 80%;
+  }
+  img{
+    opacity: 0.7;
+    background: no-repeat cover;
+    position: relative;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    
+}
+.container{
+  text-align: center;
+  height: 50%;
+  width: auto;
+  background: #000000d0;
+  color: white;
+  padding: 1em;
+  border-radius: 30px;
+  width: 140%;
+  max-width: 420px;
+  margin: 1em;
+}
+h2{
+  color: #00ffbbd0;
+  font-size: x-large;
+}
+h3{
+  color: aliceblue;
+  font-size: medium;
+}
+  /* .card {
+    background: #000000d0;
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 140%;
+    max-width: 420px;
+    margin: 1em;
+  } */
+  
+/* .back{
+    background: no-repeat cover;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media(min-aspect-ratio:16/9){
+    .back{
+        width: 100%;
+        height: auto;
+    }
+} 
+@media(max-aspect-ratio:16/9){
+    .back{
+        width: auto;
+        height: 100;
+    }
+}  */
+.smpbtn {
+  border: none;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  font-weight: 200;
+  font-size: 15px;
+  background-color: #222;
+  padding: 17px 60px;
+  margin: 0 auto;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+}
+
+.smpbtn span {
+  position: relative; 
+  z-index: 1;
+}
+
+.smpbtn:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 490%;
+  width: 140%;
+  background: #089874;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+
+.smpbtn:hover:after {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+footer{
+  position: fixed;
+  width: 100%;
+  background: #111;
+  padding: 5px 23px;
+  color: #fff;
+  text-align: center;
+  bottom: 0;
+  z-index: 100;
+}
+footer span a{
+  color: crimson;
+  text-decoration: none;
+}
+footer span a:hover{
+  text-decoration: underline;
+}
